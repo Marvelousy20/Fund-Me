@@ -55,7 +55,7 @@ contract HelperConfig is Script {
         MockV3Aggregator mockV3Aggregator = new MockV3Aggregator(
             DECIMALS,
             INITIAL_PRICE
-        );
+        ); 
         vm.stopBroadcast();
 
         NetworkConfig memory AnvilConfig = NetworkConfig({
